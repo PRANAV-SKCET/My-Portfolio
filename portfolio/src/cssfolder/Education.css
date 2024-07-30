@@ -1,0 +1,63 @@
+/* General styling for the education container */
+.education-container {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Limit the width of the container */
+    margin: 20px auto; /* Center the container */
+    transition: opacity 0.5s ease-in-out; /* Fade-in transition */
+}
+
+/* Transition effect when component mounts */
+.education-container {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Styling for the education title */
+.education-title {
+    font-size: 2rem;
+    color: #007bff; /* Blue color to match your preferred theme */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Styling for each education item */
+.education-item {
+    margin-bottom: 1.5rem;
+}
+
+/* Styling for education degree */
+.education-degree {
+    font-size: 1.5rem;
+    color: #333; /* Dark text color for readability */
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for education institution */
+.education-institution {
+    font-size: 1.2rem;
+    color: #555; /* Slightly lighter color for the text */
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for education duration and CGPA/percentage */
+.education-duration,
+.education-cgpa,
+.education-10th,
+.education-12th {
+    font-size: 1.1rem;
+    color: #666; /* Even lighter color for these details */
+    margin: 0.25rem 0;
+}

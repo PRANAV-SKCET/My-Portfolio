@@ -1,0 +1,27 @@
+.certificates-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificates-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.certificate-item {
+    margin-bottom: 15px;
+}
+
+.certificate-title {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.certificate-issuer {
+    font-size: 1rem;
+    color: #555;
+}

@@ -1,5 +1,4 @@
 import './App.css';
-import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Home from './components/Home';
@@ -16,7 +15,6 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
           <Route path="/education" element={<Education/>}/>
           <Route path="/experience" element={<Experience/>}/>
           <Route path="/skills" element={<Skills/>}/>
